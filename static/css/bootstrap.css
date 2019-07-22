@@ -16,6 +16,9 @@ body {
 article,
 aside {
   float:right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   },
 details,
 figcaption,
@@ -29,7 +32,7 @@ nav,
 section {
   float:left;
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: 0px;
 },
 summary {
