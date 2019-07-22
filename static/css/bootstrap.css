@@ -28,6 +28,9 @@ menu,
 nav,
 section {
   float:left;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 },
 summary {
   display: block;
