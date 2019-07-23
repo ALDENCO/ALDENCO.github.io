@@ -13,6 +13,12 @@ html {
 body {
   margin: 0;
 }
+
+div.white.text-grey.card-4 {
+  float: right;
+}
+
+
 article,
 aside {
   float:left;
