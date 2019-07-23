@@ -16,4 +16,7 @@ i {
 section{}
 
 
-aside{}
+aside{
+    float: right;
+    top: 200px;
+}
