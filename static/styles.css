@@ -13,6 +13,10 @@ i {
 
 }
 
+img {
+    float: left;
+}
+
 section{
     float: right;
     top: 200px;
