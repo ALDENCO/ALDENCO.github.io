@@ -28,7 +28,7 @@ main,
 menu,
 nav,
 section {
-  float:right;
+  /* float:right; */
   position: absolute;
   right: 50px;
   top: 50px;
