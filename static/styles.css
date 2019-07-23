@@ -13,10 +13,12 @@ i {
 
 }
 
-section{}
+section{
+    float: right;
+    top: 200px;
+}
 
 
 aside{
-    float: right;
-    top: 200px;
+    
 }
