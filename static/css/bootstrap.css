@@ -17,6 +17,8 @@ article,
 aside {
   float:left;
   position: absolute;
+  left: 0px;
+  top: 400px;
   },
 details,
 figcaption,
