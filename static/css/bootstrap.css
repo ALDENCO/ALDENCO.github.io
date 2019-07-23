@@ -28,7 +28,7 @@ main,
 menu,
 nav,
 section {
-  /* float:right; */
+  float:right;
   position: absolute;
   right: 50px;
   top: 50px;
@@ -94,6 +94,7 @@ sub {
 }
 img {
   border: 0;
+  float:left;
 }
 svg:not(:root) {
   overflow: hidden;
