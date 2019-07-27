@@ -9,7 +9,7 @@ body {
     
     .sidebar {
     grid-area: sidebar;
-    color: white;
+    color: #e8dfe8;
     }
     
     .content {
@@ -41,7 +41,7 @@ body {
     
     .box {
     background-color:black;
-    color: white;
+    color: #e8dfe8;
     border-radius: 5px;
     padding: 50px;
     font-size: 100%;
