@@ -1,5 +1,5 @@
 html  {
-    background: black;
+    background: #1D1D1D;
 }
 
 
@@ -40,7 +40,7 @@ body {
     
     
     .box {
-    background-color:black;
+    background-color:#1D1D1D;
     color: #e8dfe8;
     border-radius: 5px;
     padding: 50px;
