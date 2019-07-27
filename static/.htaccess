@@ -1,12 +1,3 @@
-
-
-
-
-    RewriteEngine on
-RewriteBase /
-RewriteCond %{http://www.alexrmyers.com/Home} !(\.[^./]+)$
-RewriteCond %{REQUEST_HOME.html} !-d
-RewriteCond %{REQUEST_HOME.html} !-f
-RewriteRule (.*) /$1.html [L]
-RewriteCond %{REQUEST_HOME} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
-RewriteRule ^([^.]+)\.html$ http://www.alexrmyers.com/home [R=301,L]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
