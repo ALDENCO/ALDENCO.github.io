@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %(REQUEST_ALDENCO.GITHUB.IO) !-d
+RewriteCond %(REQUEST_ALDENCO.GITHUB.IO)/.html -f
+RewriteRule ^(.*)$ $1.html
