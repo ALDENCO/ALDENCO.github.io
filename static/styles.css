@@ -22,6 +22,10 @@ body {
     p.1 {
         display:inline-block;
     }
+
+    h2.1 {
+        display:inline-block;
+    }
     
     .content {
     grid-area: content;
