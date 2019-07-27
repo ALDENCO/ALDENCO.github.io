@@ -19,13 +19,9 @@ body {
         margin-right: 1em;
     }
 
-    p.1 {
-        display:inline-block;
-    }
-
-    h2.1 {
-        display:inline-block;
-    }
+  div.skillbar {
+      display:inline;
+  }
     
     .content {
     grid-area: content;
