@@ -10,6 +10,12 @@ body {
     .sidebar {
     grid-area: sidebar;
     color: #e8dfe8;
+    padding-left: 3em;
+    }
+
+    i {
+        display:inline-block;
+        margin-right: 1em;
     }
     
     .content {
